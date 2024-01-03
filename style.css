@@ -5,6 +5,16 @@
   font-family: Lato, sans-serif;
 }
 
+input {
+  outline: none;
+}
+
+label,
+button,
+input {
+  vertical-align: middle;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -38,10 +48,6 @@
   flex-grow: 1;
 }
 
-.add__wrapper {
-  display: flex;
-}
-
 .page-list {
   margin: 0;
   padding: 0px;
@@ -49,16 +55,6 @@
 
 .todo-item {
   list-style: none;
-}
-
-input {
-  outline: none;
-}
-
-label,
-button,
-input {
-  vertical-align: middle;
 }
 
 .page-btn {
@@ -76,6 +72,10 @@ input {
   color: #3a3a3a;
 }
 
+.add__wrapper {
+  display: flex;
+}
+
 /* Heading */
 .page-title {
   color: #333;
@@ -87,7 +87,7 @@ input {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.add__input, .task-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +100,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.task-text:focus {
   color: #333;
 }
 
@@ -129,14 +129,14 @@ input[type="text"]:focus {
   margin: 0 10px;
 }
 
-.todo-item>label {
+.task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.todo-item>.task-text {
+.task-text {
   width: 226px;
 }
 
