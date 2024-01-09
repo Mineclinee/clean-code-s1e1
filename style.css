@@ -77,7 +77,8 @@
   text-transform: uppercase;
 }
 
-.add__input, .task-text {
+.add__input,
+.task-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -141,7 +142,8 @@
 }
 
 /* Completed */
-.completed__list .task-label {
+.completed__list
+.task-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -151,11 +153,13 @@
   display: none;
 }
 
-.todo-item--edit .task-text {
+.todo-item--edit
+.task-text {
   display: inline-block;
   width: 224px;
 }
 
-.todo-item--edit .task-label {
+.todo-item--edit
+.task-label {
   display: none;
 }
