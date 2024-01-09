@@ -199,3 +199,4 @@ for (var i = 0; i < completedTasksHolder.children.length; i++) {
 //prevent creation of empty tasks.
 
 //Change edit to save when you are in edit mode.
+alert('https://github.com/Mineclinee/clean-code-s1e1/pull/1');
